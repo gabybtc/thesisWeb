@@ -9,8 +9,8 @@ function App() {
     <Router>
       <Routes>
       <Route path="/thesisWeb/" element={<MainPage/>} />
-      <Route path="/thesisWeb/learn-more" element={<LearnMore />} />
-      <Route path="/thesisWeb/home" element={<HomePage />} />
+      <Route path="/learn-more" element={<LearnMore />} />
+      <Route path="/home" element={<HomePage />} />
     </Routes>
     </Router>
   );
