@@ -1,0 +1,86 @@
+  .question {
+    font-family: Helvetica;
+    color:#25321A;
+    display: grid;
+    place-items: center; /* Center both horizontally and vertically */
+    height: 100vh; /* Set the container height to the viewport height */
+  }
+
+  .locatIcon {
+    height: 2rem;
+  }
+
+  .new-text {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22%;
+    top: 45%;
+    left: 50%;
+    z-index: 1;
+    transition: opacity 1s ease-out;
+  }
+
+  .text {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 24%;
+  }
+
+  .new-text.show {
+    opacity: 1;
+  }
+
+  .new-text.fade-out {
+    opacity: 0;
+  }
+
+  .highlight {
+    background-color: #DAECD4;
+    border-radius: 30px;
+    padding: 1px 6px;
+  }
+
+  .h2 {
+    font-size: 28px;
+    color: #25321A;
+    transition: opacity 0.5s ease;
+  }
+
+  .hide {
+    opacity: 0; /* Make the h2 element disappear */
+  }
+
+  .move-left {
+    transform: translateX(-200px); /* Move the box 100px to the left */
+  }
+
+  .mapStyle {
+    position: relative;
+    margin-top: -50%;
+    scale: 65%;
+    transition: transform 0.9s ease;
+  }
+
+  .circlesChoice {
+    transform: translateY(20px); /* Start position below */
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 19%;
+    top: 24%;
+    left: 45%;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .circlesChoice.show {
+    opacity: 1;
+    transform: translateY(0); /* End position at original position */
+  }
+ 

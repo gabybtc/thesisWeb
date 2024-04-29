@@ -1,0 +1,97 @@
+.toHelp-box {
+    background-color: #25321A;
+    color: #fff;
+    height: 35rem;
+    width: 60rem;
+    border-radius: 30px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 4%;
+}
+
+.toHelp-title {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.toHelp-Highlight {
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #6FB457;
+  }
+
+  .textExpl-box {
+    background-color: #6FB457;
+    color: #fff;
+    height: 22rem;
+    width: 27rem;
+    border-radius: 30px;
+    font-family: Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sideImg{
+    scale: 90%;
+  }
+
+  .sideImgContainer{
+    margin-top: -30%;
+    margin-right: -50%;
+  }
+
+  .miniBox-title{
+    position: relative;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 3%;
+    margin-left: -45%;
+  }
+
+  .miniBox-title-highlight{
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #25321A;
+  }
+
+  .miniBox-text{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 4%;
+    font-weight: 500.3;
+  }
+
+  .educateIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40%;
+    scale: 90%;
+  }
+
+  .WTH-nextButton,
+  .WTH-prevButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Center buttons vertically */
+  }
+  
+  .WTH-prevButton {
+    left: 20%;
+  }
+  
+  .WTH-nextButton {
+    right: 20%;
+  }

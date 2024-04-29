@@ -1,0 +1,37 @@
+.question4 {
+    font-family: Helvetica;
+    display: grid;
+    place-items: center; /* Center both horizontally and vertically */
+    height: 100vh; /* Set the container height to the viewport height */
+    max-width: 60%; /* Adjust this value based on your desired width */
+}
+
+.headerQ4 {
+    font-size: 28px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #25321A;
+    word-break: break-word;
+    white-space: pre-wrap;
+    margin-top: 2%;
+}
+
+.iscorrect-btn {
+    background-color: #386B26;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: Helvetica;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -19%;
+  }
+
+  .iscorrect-btn:hover {
+    background-color: #25321A;
+  }

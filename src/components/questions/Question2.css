@@ -1,0 +1,95 @@
+.question2 {
+    font-family: Helvetica;
+    color:#25321A;
+    display: grid;
+    place-items: center; /* Center both horizontally and vertically */
+    height: 100vh; /* Set the container height to the viewport height */
+    max-width: 60%; /* Adjust this value based on your desired width */
+}
+
+.custom-slider {
+    width:10rem;
+    background-color: #25321A;
+  }
+
+.h2 {
+    font-size: 28px;
+    color: #25321A;
+    word-break: break-word;
+    white-space: pre-wrap;
+}
+
+.highlight2-1 {
+    background-color: #DAECD4;
+    border-radius: 30px;
+    padding: 1px 6px;
+  }
+
+  .highlight2-2 {
+    background-color: #C1D2D6;
+    border-radius: 30px;
+    padding: 1px 6px;
+  }
+
+  .interactive-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30%;
+  }
+
+  .person-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .person-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 19%;
+  }
+
+  .slider-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider-group {
+    display: flex;
+    align-items: center;
+    margin: 0 7%;
+  }
+
+  .btnCont {
+    display: flex;
+    justify-content: center;
+    margin-top: -10%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .fade-in {
+    opacity: 1;
+  }
+
+  .check-btn {
+    background-color: #386B26;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: Helvetica;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .check-btn:hover {
+    background-color: #25321A;
+  }

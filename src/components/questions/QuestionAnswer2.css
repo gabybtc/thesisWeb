@@ -1,0 +1,145 @@
+.box-container {
+    background-color: #25321A;
+    color: #fff;
+    height: 35rem;
+    width: 60rem;
+    border-radius: 30px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 4%;
+  }
+
+  .box-content {
+    margin-top: 4%;
+  }
+
+  .italic-times {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+  
+  .box-headerQ2 {
+    margin-left: 5%;
+    position: relative;
+    top: 4%;
+    display: flex; /* Use flexbox layout */
+  }
+
+  .titleText {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .subTitle {
+    color: #25321A;
+    font-size: 19px;
+    margin-left: 12%;
+    margin-top: 0.5%;
+    font-weight: bold;
+  }
+
+  .subTitleHighlight {
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #ffffff;
+  }
+
+  .headerHighlight {
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #386B26;
+  }
+  
+
+  .textBlockOneQ2 {
+    font-size: 17px;
+    margin-left: 6%;
+    margin-right: 25%;
+    margin-top: 6%;
+    text-align: left;
+  }
+
+  .secondTextBlockQ2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-left: 6%;
+    margin-top: -6.5%;
+    text-align: left;
+  }
+
+  .secondLine {
+    position: relative;
+    display: flex; /* Use flexbox layout */
+  }
+  
+  .MJLaw-icon {
+    scale: 100%;
+    margin-right: -70%;
+    margin-top: -12%;
+  }
+  
+  .footer-text-2 {
+    font-size: 17px;
+    margin-top: -30%;
+    margin-left: 30%;
+    text-align: left;
+  }
+
+  .footer-text-pt1 {
+    font-weight: 510;
+    display: flex;
+    justify-content: center;
+    margin-top: -62%;
+    margin-left: 6%;
+    margin-right: 5%;
+  }
+
+  .article-img {
+    display: flex;
+    justify-content: center;
+    scale: 25%;
+    margin-top: 8%;
+    margin-left: -90%;
+  }
+
+  .imgAnnot {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: -62.5%;
+    text-align: left;
+  }
+  
+  .arrow-icon {
+    display: flex;
+    justify-content: center;
+    scale: 90%;
+    margin-top: -13%;
+    margin-left: 1%;
+  }
+
+  .next-btn {
+    background-color: #25321A;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: Helvetica;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .next-btn:hover {
+    background-color: #71B659;
+  }
+
+  .next-icon {
+    width: 22px;
+    height: 22px;
+    margin-left: 15%;
+  }

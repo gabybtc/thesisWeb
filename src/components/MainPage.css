@@ -1,0 +1,90 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #242E1B;
+    color: #fff;
+    text-align: center;
+    position: relative;
+  }
+  
+  .map-container {
+    max-width: 80%;
+    margin-bottom: -2%;
+    margin-top: -12%;
+  }
+  
+  .us-map {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .content {
+    max-width: 1000px;
+    position: relative;
+  }
+  
+  h2 {
+    font-size: 20;
+    font-family: Helvetica;
+    margin-top: 0%;
+    margin-bottom: 20%;
+  }
+  
+  p {
+    font-size: 17px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: -18%;
+    max-width: 1000px;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+  
+  .times-new-roman {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .light-green {
+    color: #71B659;
+  }
+  
+  .learn-more-btn {
+    background-color: white;
+    text-decoration: none;
+    color: #333;
+    border: none;
+    margin-top: 2%;
+    border-radius: 30px;
+    padding: 20px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: Helvetica;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #71B659;
+  }
+  
+  .play-icon {
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+  }
+
+  .marijuanaIcon {
+    position: absolute;
+    bottom: -2%;
+    left: 0;
+    width: 28%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }

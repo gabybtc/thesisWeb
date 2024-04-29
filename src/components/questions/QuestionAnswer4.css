@@ -1,0 +1,112 @@
+.box-container {
+    background-color: #25321A;
+    color: #fff;
+    height: 35rem;
+    width: 60rem;
+    border-radius: 30px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 4%;
+  }
+
+  .box-headerQ4 {
+    margin-left: 5%;
+    position: relative;
+    top: 4%;
+    display: flex; /* Use flexbox layout */
+  }
+
+  .title4 {
+    color: #ffffff;
+    font-size: 27px;
+    margin-left: 0%;
+    margin-right: 10%;
+    margin-top: 0.5%;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .titlehighlight4 {
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #386B26;
+  }
+
+  .textContent4 {
+    margin-top: 7%;
+    margin-left: -36%;
+  }
+
+  .textPartOne {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .percentage {
+    font-size: 50px;
+    font-weight: bold;
+    color: #71B659;
+    margin-left: -32%;
+  }
+
+  .percentageCont {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -5.5%;
+    margin-left: 39%;
+    text-align: left;
+  }
+
+  .textBlockpt1 {
+    text-align: left;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-right: 30%;
+  }
+  .textBlockpt2 {
+    text-align: left;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-right: 30%;
+  }
+
+  .statsImageBox {
+    display: flex;
+    justify-content: center;
+    margin-right: -60%;
+    margin-top: -29%;
+  }
+  
+  .arrow-icon {
+    display: flex;
+    justify-content: center;
+    scale: 90%;
+    margin-top: -13%;
+    margin-left: 1%;
+  }
+
+  .next-btn-tohome {
+    background-color: #25321A;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: Helvetica;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .next-btn-tohome:hover {
+    background-color: #71B659;
+  }
+
+  .next-icon {
+    width: 22px;
+    height: 22px;
+    margin-left: 15%;
+  }

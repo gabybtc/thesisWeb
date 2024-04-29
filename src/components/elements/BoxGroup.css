@@ -1,0 +1,83 @@
+.box-group {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 5%;
+    margin-top: 6%;
+  }
+
+  .box {
+    /* Base styles for the box */
+    height: 16.5rem;
+    width: 14.5rem;
+    border-radius: 30px;
+    display: grid;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    transition: transform 0.3s, width 0.3s, height 0.3s; /* Animation for hover effect */
+  }
+  
+  .box--hovered {
+    /* Styles for the hovered box (e.g., larger size, z-index) */
+    transform: scale(1.6);
+    z-index: 1;
+  }
+
+  .box__title {
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 7%;
+  }
+
+  .box__image {
+    scale: 100%;
+    text-align: center;
+  }
+
+  .hovered-box {
+    font-family: Helvetica, sans-serif;
+    display: column;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+  }
+
+  .miniIcon {
+    height: 10%;
+    width: 10%;
+    margin-bottom: -2.5%;
+    margin-right: 2%;
+  }
+
+  .hovered-Title {
+    font-size: 12px;
+    margin-top: -9%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    color: white;
+    font-weight: bold;
+  }
+
+  .hovered-titleHighlight {
+    padding: 2px 7px;
+    border-radius: 20px;
+    background: #25321A;
+  }
+
+  .hovered-text1 {
+    font-size: 10px;
+    text-align: left;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: #25321A;
+    font-weight: 500.3;
+  }
+
+  .hovered-text2 {
+    margin-top: 3%;
+  }
+
+  

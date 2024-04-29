@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F0F0;
+    color: #25321A;
+    padding: 10px 20px;
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .MJ-Nav-Icon {
+    width: 32px; /* Adjust the size as needed */
+    height: 32px;
+    margin-right: 10px; /* Add some spacing between the icon and text */
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #25321A;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-left: 20px;
+  }
+  
+  .navbar-link {
+    width: 20px;
+    height: 20px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #ccc;
+  }

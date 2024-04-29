@@ -1,0 +1,13 @@
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .progress-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 8px;
+  }

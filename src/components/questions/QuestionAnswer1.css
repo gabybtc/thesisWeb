@@ -1,0 +1,109 @@
+.box-container {
+    background-color: #25321A;
+    color: #fff;
+    height: 35rem;
+    width: 60rem;
+    border-radius: 30px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 4%;
+  }
+
+  .box-content {
+    margin-top: 4%;
+  }
+
+  .italic-times {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+  
+  .box-header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: -72%;
+    position: relative;
+    top: 4%;
+  }
+
+  .headerHighlight {
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #386B26;
+  }
+  
+
+  .firstTextBlock {
+    font-size: 18px;
+    margin-left: 8%;
+    margin-right: 23%;
+    text-align: left;
+  }
+
+  .secondTextBlock {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+  }
+  
+  .world-icon {
+    scale: 100%;
+    margin-right: -70%;
+    margin-top: -10%;
+  }
+  
+  .footer-text {
+    font-size: 18px;
+    margin-top: -30%;
+    margin-left: 30%;
+    margin-right: 5%;
+    text-align: left;
+  }
+
+  .bottomHeader{
+    font-size: 21px;
+    margin-bottom: 4%;
+    font-weight: bold;
+    color: #386B26;
+  }
+
+  .btmHighlight{
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #ffffff;
+  }
+  
+  .weedPlant-icon {
+    display: flex;
+    justify-content: center;
+    scale: 85%;
+    margin-top: 3%;
+  }
+
+  .next-btn {
+    background-color: #25321A;
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: Helvetica;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .next-btn:hover {
+    background-color: #71B659;
+  }
+
+  .next-icon {
+    width: 22px;
+    height: 22px;
+    margin-left: 15%;
+  }

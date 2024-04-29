@@ -1,0 +1,177 @@
+.containerHome {
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .MJ-icon-big {
+    width: 110%;
+    height: 110%;
+    position: sticky;
+    margin-right: -70%;
+    margin-top: -32%;
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: fadeUp 1.5s forwards; /* Apply animation */
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0; /* Start with opacity 0 */
+      transform: translateY(50%); /* Start off screen below */
+    }
+    to {
+      opacity: 1; /* End with opacity 1 */
+      transform: translateY(0); /* Slide up to original position */
+    }
+  }
+
+  .Web-titleText {
+    margin-left: 6%;
+    margin-top: 20%;
+    margin-right: 30%;
+    text-align: left;
+    position: sticky;
+  }
+
+  .mainHeader {
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: slideFadeIn 1.5s forwards; /* Apply animation */
+  }
+
+  .mainsubtitle {
+    margin-top: 2%;
+    margin-right: 18%;
+    color: #9FC175;
+    font-weight: bold;
+    font-size: 17px;
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: slideFadeIn 1.5s forwards; /* Apply animation */
+  }
+
+  @keyframes slideFadeIn {
+    from {
+      opacity: 0; /* Start with opacity 0 */
+      transform: translateX(-100%); /* Start off screen on the left */
+    }
+    to {
+      opacity: 1; /* End with opacity 1 */
+      transform: translateX(0); /* Slide to original position */
+    }
+  }
+
+  .timeline {
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-top: -10%;
+  }
+
+  .CannabisHysteria-sect {
+    margin-top: 15%;
+    margin-left: 4%;
+  }
+
+  .CH-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .CH-subtitle {
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    margin-top: 1.2%;
+    margin-right: 40%;
+  }
+
+  .Legalizing-sect {
+    margin-top: 20%;
+    margin-left: 4%;
+  }
+
+  .legal-text{
+    font-size: 16px;
+    margin-top: 3%;
+    color: white;
+    margin-right: 70%;
+    font-weight: 500.2;
+  }
+
+.emphasis-text{
+    color: #25321A;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 28px;
+    margin-right: 80%;
+    margin-top: 1.5%;
+    line-height:120%;
+}
+
+.emphasis-highlight {
+    padding: 2px 10px;
+    border-radius: 20px;
+    background: #619051;
+  }
+
+  .graph-box-container {
+    margin-left: 45%;
+    margin-top: -30%;
+  }
+  
+  .graph-image {
+    display: block;
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .graph-text {
+    color: white;
+    margin-top: 2%;
+    text-align: right;
+    margin-right: 8%;
+  }
+
+  .breakBtwn-text {
+    margin-top: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .breakBtwn-title {
+    font-weight: bold;
+    color: white;
+    font-size: 26px;
+  }
+
+  .breakBtwn-para {
+    font-size: 22px;
+    color: #25321A;
+    font-weight: 500.2;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 3%;
+  }
+
+  .waysToHelp {
+    margin-top: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
