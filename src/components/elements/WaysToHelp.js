@@ -6,7 +6,7 @@ const WaysToHelp = () => {
   const [currentStep, setCurrentStep] = useState(0);
 
   const listItems = [
-    'Investing in minority communities targeted in the failed war on drugs', 
+    'Re-investing tax money in minority communities targeted in the failed war on drugs', 
     'Ensuring that those disproportionately affected by cannabis criminalization have access to the new economic opportunities now presented by reform'
   ];
 
@@ -16,11 +16,11 @@ const WaysToHelp = () => {
         <span className='miniBox-title-highlight'>Educate Yourself</span>
     </div>
     <div className='miniBox-text'>
-    Knowing the history behind this drug and its racist background is the first step to helping change unfair legislation and fix our warped perceptions of Marijuana.
+    Knowing the racist history behind this drug is the first step to helping change unfair legislation and fix our warped perceptions of marijuana.
     <img src={ educate } alt='' className='educateIcon'/>
     </div>
     <div className='miniBox-text' style={{ color: '#293F1D' }}>
-    Start to make active choices about where you purchase any cannabis that you consume. Seek out businesses lead by people of color and people who have been affected negatively by cannabis legislation in the past.
+    Start making active choices about where you purchase any cannabis that you consume. Seek out businesses lead by people of color and people who have been affected negatively by cannabis legislation in the past.
     </div>
     </div>
     ,
@@ -29,7 +29,7 @@ const WaysToHelp = () => {
         <span className='miniBox-title-highlight'>Push for Federal Legalization</span>
     </div>
     <div className='miniBox-text'>
-    Making cannabis legal at the federal level is what can lead us to finally move past the war on drugs and even help fix unjust and incorrect societal views on latin immigrants. It is the best way to attempt to fix the damage that has been done by past cannabis legislation.
+    Making cannabis legal at the federal level can lead us to finally move past the war on drugs and even help fix unjust and incorrect societal views on latin immigrants. It is the best way to attempt to fix the damage that has been done by past cannabis legislation.
     </div>
     <div className='miniBox-text' style={{ color: '#293F1D', fontWeight: 'bold', marginTop: '0.5%'}}>
     Some things that this federal legalization should include are:

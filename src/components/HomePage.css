@@ -174,4 +174,35 @@
     justify-content: center;
     text-align: center;
     position: relative;
+    z-index: 1;
   }
+
+  .background-icons2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none; /* To ensure the icons don't interfere with other elements */
+  }
+  
+  .background-icon2 {
+    position: absolute;
+    width: 500px; /* Adjust the size as needed */
+    height: 500px;
+  }
+  
+  .background-icon-top-left {
+    top: -900px; /* Adjust the position as needed */
+    left: -80px;
+    transform: rotate(45deg);
+  }
+  
+  .background-icon-bottom-right {
+    bottom: -200px; /* Adjust the position as needed */
+    right: -50px;
+    transform: rotate(-45deg);
+  }
+
+  

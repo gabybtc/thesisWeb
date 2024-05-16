@@ -24,10 +24,10 @@ const QuestionAnswer4 = () => {
         of those incarcerated in federal prisons for drug offenses<br />  were Black/Latino
         </div>
         <div className='textBlockpt1'>
-        Though this number has declined somewhat since, statistics like these create long tail legacies that have negative repercussions for societal and law enforcement prejudices against latin and other immigrants. We must work to eliminate this prejudice against latin immigrants and more generally, against people of color.
+        Though this number has declined somewhat since, statistics like these create long tail legacies that have negative effects on law enforcement and societal prejudices against latinos and other immigrants.
         </div>
         <div className='textBlockpt2'>
-        The fact is, <span style={{ color: '#71B659', fontWeight: 'bold'}}>white Americans use marijuana at very similar rates to the black and latino population,</span> so the stubborn belief that this drug is being used "dangerously" ONLY by latino & black communities is patently false.
+        The fact is, <span style={{ color: '#71B659', fontWeight: 'bold'}}>white Americans use marijuana at very similar rates to the black and latino population, </span>so the stubborn belief that this drug is being used "dangerously" ONLY by latino & black communities is patently false.
         </div>
     </div>
     <div className='statsImageBox'>

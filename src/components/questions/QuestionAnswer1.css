@@ -21,7 +21,7 @@
   .box-header {
     font-size: 28px;
     font-weight: bold;
-    margin-left: -72%;
+    margin-left: -55%;
     position: relative;
     top: 4%;
   }
@@ -34,7 +34,7 @@
   
 
   .firstTextBlock {
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 8%;
     margin-right: 23%;
     text-align: left;
@@ -42,7 +42,7 @@
 
   .secondTextBlock {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
     text-align: left;
@@ -51,12 +51,12 @@
   .world-icon {
     scale: 100%;
     margin-right: -70%;
-    margin-top: -10%;
+    margin-top: -12%;
   }
   
   .footer-text {
-    font-size: 18px;
-    margin-top: -30%;
+    font-size: 15.5px;
+    margin-top: -32%;
     margin-left: 30%;
     margin-right: 5%;
     text-align: left;
@@ -79,7 +79,7 @@
     display: flex;
     justify-content: center;
     scale: 85%;
-    margin-top: 3%;
+    margin-top: 2.8%;
   }
 
   .next-btn {

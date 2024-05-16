@@ -37,7 +37,7 @@ const HomePage = () => {
       Cannabis Hysteria
       </div>
       <div className='CH-subtitle'>
-      U.S. politicians used a number of methods to give cannabis a bad reputation and incite panic among white Americans. These methods have created racist roots in our legislation and societal perceptions which is why it is so important to acknowledge them.
+      U.S. politicians used a number of methods to give cannabis a bad reputation and incite panic among white Americans. These methods have created racist roots in our legislation and societal perceptions, which are important to acknowledge.
       </div>
       <div className='boxes'>
         <BoxGroup/>
@@ -48,21 +48,21 @@ const HomePage = () => {
       Legalizing Marijuana
       </div>
       <div className='legal-text'>
-      The recent implementation of Recreational Marijuana laws & pardons for incarceration for possession have helped with disproportionate drug related incarceration rates, however- it is immensely difficult to get rid of years and years of built prejudice and racism surrounding this drug.  
+      The recent implementation of recreational marijuana laws and pardons for incarceration for possession have helped with disproportionate drug related incarceration rates. However, it is immensely difficult to get rid of years and years of built prejudice and racism surrounding this drug.
       </div>
       <div className='legal-text'>
-      In 2022, <a href="https://www.vera.org/news/bidens-cannabis-pardons-one-small-step-to-ending-war-on-drugs-much-more-needed" style={{ color: 'white', fontStyle: 'italic' }}>Biden pardoned thousands of people convicted under federal law of cannabis possession</a>, and now...
+      In 2022, <a href="https://www.vera.org/news/bidens-cannabis-pardons-one-small-step-to-ending-war-on-drugs-much-more-needed" target="_blank" style={{ color: 'white', fontStyle: 'italic' }}>Biden pardoned thousands of people convicted under federal law of cannabis possession</a>, and now...
       </div>
       <div className='emphasis-text'>
       the rates of incarceration for Marijuana are at an <span className='emphasis-highlight'>all time low</span>
       </div>
       <div className='legal-text' style={{ marginRight: '75%'}}>
-      This is monumental given that more people were arrested for drug possession than any other type of crime a few years prior, with most of those arrested being latino & black.
+      This is monumental given that more people were arrested for drug possession than any other type of crime a few years prior, <a href="https://www.unodc.org/documents/ungass2016/Contributions/Civil/DrugPolicyAlliance/DPA_Fact_Sheet_Drug_War_Mass_Incarceration_and_Race_June2015.pdf" target="_blank" style={{ color: 'white', fontStyle: 'italic' }}>with most of those arrested being latino & black.</a>
       </div>
       <div class="graph-box-container">
       <a href="https://norml.org/laws/arrest-charts/" target="_blank"> <img src="https://norml.org/wp-content/uploads/2023/10/marijuana-arrests-chart-sh-1200.png" alt="U.S. Marijuana Arrests" border="0" className='graph-image'/></a>
       <div className='graph-text'>
-        Graph from NORML according to the FBI's Uniform Crime Report 
+        Graph from NORML (a nonprofit advocacy group in the United States that aims to legalize marijuana for responsible adult use, end cannabis prohibition, and reform related laws and policies) according to the FBI's Uniform Crime Report, 2023
       </div>
       </div>
     </div>
@@ -73,12 +73,16 @@ const HomePage = () => {
       A critical systemic problem such as this one requires systemic solutions.
       </div>
       <div className='breakBtwn-para'>
-      Marijuana is still fully illegal at the federal level, and for states where it has been legalized, most of those profiting off of cannabis are white. So even after years of suffering at the hands of the United State's public racist opinion of this drug, those affected cannot even reap the benefits of its legalization.
+      Marijuana is still fully illegal at the federal level, and for states where it has been legalized, most of those profiting off of cannabis are white. So after years of suffering at the hands of the United States public racist opinion of this drug, those affected cannot reap the benefits of its legalization.
       </div>
     </div>
     <div className='waysToHelp'>
       <WaysToHelp/>
     </div>
+    <div className="background-icons2">
+    <img src={BGMarijuana} alt="mj-bg-icon" className="background-icon2 background-icon-top-left"/>
+    <img src={BGMarijuana} alt="mj-bg-icon" className="background-icon2 background-icon-bottom-right"/>
+      </div>
     </div>
   );
 };

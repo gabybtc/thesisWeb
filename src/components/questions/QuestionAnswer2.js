@@ -8,17 +8,17 @@ const QuestionAnswer2 = ({ onNext }) => {
     <div className="box-container">
       <div className="box-headerQ2">
         <div className='titleText'>
-        <span className = "headerHighlight">Not quite...</span>
+        <span className = "headerHighlight">This is the reality</span>
         </div>
         <div className='subTitle'>
         <span className = "subTitleHighlight">
-        But don't worry! Many people get this wrong
+        (Many people get this wrong!)
         </span>
         </div>
       </div>
       <div className='box-content'>
         <div className='textBlockOneQ2'>
-        Because of the “lower status” and societal preconceptions of brown people (including Mexican immigrants) the United States law enforcement pushed this idea that all Mexican immigrants smoked cannabis regularly and that all of Mexico had a very tolerant attitude towards marijuana.
+        Because of the “lower status” and societal preconceptions of brown people (including Mexican immigrants) the US law enforcement pushed this idea that all Mexican immigrants smoked cannabis regularly and that all of Mexico had a very tolerant attitude towards marijuana.
       </div>
       <img src={MJLawIcon} alt="MJLawIcon" className="MJLaw-icon" />
       <div className='secondLine'>
@@ -30,11 +30,11 @@ const QuestionAnswer2 = ({ onNext }) => {
       <div className='footer-text-2'>
       <img src={articleImage} alt="article-pic" className="article-img" />
       <div className='footer-text-pt1'>
-      In fact, marijuana had a bad reputation in Mexico before it was demonized in the US. It was banned in Mexico in 1920 and looked down upon as a recreational drug despite the assumption that marijuana was as conventional to the Mexican population as alcohol.
+      In fact, marijuana had a bad reputation in Mexico before it was demonized in the US. It was banned in Mexico in 1920 and looked down upon as a recreational drug. 
       <br />
       {' '}
       <br />
-      This false assumption is known as the “Mexican Hypothesis” and was falsely promoted and encouraged by many American scholars.
+      The erroneous assumption that Mexicans loved cannabis is was known as the “Mexican Hypothesis” and was falsely promoted and encouraged by many American scholars.
       </div>
       </div>
       <div className= 'imgAnnot'>

@@ -22,7 +22,7 @@ const BoxGroup = () => {
           <div className='hovered-text1'>
           In the 1930s, the new head of the Federal Bureau of Narcotics, Henry Aslinger, used racism to seek and achieve a federal ban on cannabis.
           <div className='hovered-text2'>
-            Aslinger used statements such as <a href="https://www.britannica.com/story/why-is-marijuana-illegal-in-the-us">"Reefer makes darkies think they're as good as white men”</a> and claimed white women smoking marijuana would taint them and result in them having sex with black men. He used this striking xenophobia to push acts such as the Marijuana Tax Act and classify marijuana as a schedule I drug (same as heroin and LSD). Aslinger's evident racism was one of the main causes of the indisproportianate arrests of people of color for marijuana-related charges.
+            Aslinger used statements such as, <a href="https://www.britannica.com/story/why-is-marijuana-illegal-in-the-us">"Reefer makes darkies think they're as good as white men,”</a> and claimed white women smoking marijuana would be taint themed  and result in them havingwill end up having sex with black men. He used this striking xenophobia to push acts such as the Marijuana Tax Act and classify marijuana as a schedule Schedule I drug (same as heroin and LSD). Aslinger's evident racism were was one of the main causes of the indisproportiaonate arrests of people of color for on marijuana-related charges.
         </div>
           </div>
         </div>
@@ -43,9 +43,9 @@ const BoxGroup = () => {
             <span className='hovered-titleHighlight' style={{ background: 'white'}}>Research Bias</span>
           </div>
           <div className='hovered-text1' style={{ color: 'white'}}>
-          Until recently, research into cannabis and its mental and physical effects only concentrated on the negative aspects of the drug and were not holistic at all. The drug is also still classified as a schedule I drug (like heroin and LSD) despite our more accurate and conflicting knowledge about cannabis today.
+          Until recently, research into cannabis and its mental and physical effects only concentrated on the negative aspects of the drug and were not holistic. The drug is also still classified as a Schedule I drug (like heroin and LSD) despite our more accurate knowledge about cannabis today.
           <div className='hovered-text2'>
-          In turn, legislators made bold false accusations about cannabis with supporters fully trusting and believing these claims and it was not until recently that we have had more accurate and less biased research to refute those claims. <a href="https://www.factcheck.org/2015/07/fiorina-shortchanges-marijuana-research/" style={{ color: 'white' }}>Here is an example.</a>
+          In turn, legislators made bold false accusations about cannabis, with supporters fully trusting and believing these claims, and it was not until recently that we have had more accurate and less biased research to refute those claims. <a href="https://www.factcheck.org/2015/07/fiorina-shortchanges-marijuana-research/" style={{ color: 'white' }}>Here is an example.</a>
         </div>
           </div>
         </div>
@@ -68,10 +68,10 @@ const BoxGroup = () => {
           <div className='hovered-text1'>
           There was a clear switch in language from “cannabis” to “marijuana” in 20th century America, most likely because of anti-immigrant sentiment.
           <div className='hovered-text2'>
-          This adoption of the foreign-sounding word “marijuana,” was simply another way to incite public xenophobia and push for prohibiting the drug.
+          This adoption of the foreign-sounding word “marijuana” was simply another way to incite public xenophobia and push to prohibit the drug.
         </div>
         <div className='hovered-text2'>
-        In fact, it is evident that 18th century articles on “cannabis” and 19th century articles on “marijuana” almost seemed to be describing two different plants.
+        In fact, 18th century articles on “cannabis” and 19th century articles on “marijuana” almost seemed to be describing two different plants.
         </div>
           </div>
         </div>
@@ -92,12 +92,12 @@ const BoxGroup = () => {
             <span className='hovered-titleHighlight'>Propaganda</span>
           </div>
           <div className='hovered-text1'>
-          Propaganda took its form in the 1930's as exploitation movies, racially charged articles and more.
+          Anti-cannabis propaganda took its form in the 1930s as exploitation movies, racially charged articles, and more.
           <div className='hovered-text2'>
-          The movie Reefer Madness (1936) was a clear reflection of social attitudes and panic in that time period and used racism to incite fear among white Americans related to the drug and people of color.
+          The movie Reefer Madness (1936) was a clear reflection of social attitudes and panic in that time period, and used racism to incite fear among white Americans towards the drug and the people of color who supposedly abused it. 
         </div>
         <div className='hovered-text2'>
-        Some statements used in association with cannabis propaganda included: “Assassination of youth” and “Evil Mexican Plants.”
+        Some statements used in association with cannabis propaganda included: “Assassination of youth” and “Evil Mexican plants.”
         </div>
           </div>
         </div>

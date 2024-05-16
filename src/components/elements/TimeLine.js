@@ -43,12 +43,13 @@ const TimeLine = () => {
         <div className="backbone-container">
         <TimelineBackbone/>
         </div>
+    <div className='timeline-content'>
       <div className={`timeline-item ${showDivs.includes(0) ? 'show' : ''}`}>
       <div className='title-1910'>
       MEXICAN <br /> REVOLUTION
       </div>
       <div className='expl-1910'>
-      Flood of Mexican Immigrants to the US and the first emergence cannabis as a recreational drug
+      Flood of Mexican Immigrants to the US and the first emergence of cannabis as a recreational drug
       </div>
       </div>
       <div className={`timeline-item ${showDivs.includes(1) ? 'show' : ''}`}>
@@ -67,25 +68,25 @@ const TimeLine = () => {
         "Reefer Madness"
       </div>
       <div className='mjTaxAct'>
-      <span style={{fontWeight: 'bold', fontStyle: 'italic'}}>Marijuana Tax Act: </span> <br /> Shortly after (1937) congress passed the Marijuana Tax Act, restricting possession to those who paid a tax for certain authorized and specific medical/industrial uses
+      <span style={{fontWeight: 'bold', fontStyle: 'italic'}}>Marijuana Tax Act: </span> <br /> Less than a year later (1937), Congress passed the Marijuana Tax Act, restricting possession to those who paid a tax for certain authorized and specific medical/industrial uses.
       </div>
       </div>
       <div className={`timeline-item ${showDivs.includes(3) ? 'show' : ''}`}>
       <div className='text-1951'>
-      <span style={{fontWeight: 'bold', fontStyle: 'italic'}}>Stricter Sentencing Laws: </span> <br /> Federal laws now dictated that a first-offense marijuana possession warranted a minimum sentence of 2-10 years and a fine of up to $20,000
+      <span style={{fontWeight: 'bold', fontStyle: 'italic'}}>Stricter Sentencing Laws: </span> <br /> Federal laws now dictated that a first-offense marijuana possession warranted a minimum sentence of 2 to 10 years and a fine of up to $20,000.
       </div>
       </div>
       <div className={`timeline-item ${showDivs.includes(4) ? 'show' : ''}`}>
       <div className='text-1970'>
-      <span style={{fontWeight: 'bold', fontStyle: 'italic'}}>Most minimum sentences repealed: </span> Marijuana was found to not induce violence and was categorized separately from other narcotics. Mandatory federal sentences for small amounts in possession were eliminated. Smoking marijuana was also becoming popular among middle-class adults.
+      <span style={{fontWeight: 'bold', fontStyle: 'italic'}}>Most minimum sentences repealed: </span> Marijuana was found to not induce violence and was categorized separately from other narcotics. Mandatory federal sentences for possession of small amounts were eliminated. Smoking marijuana was also becoming popular among middle-class adults.
       </div>
       </div>
       <div className={`timeline-item ${showDivs.includes(5) ? 'show' : ''}`}>
       <div className='warondrugs'>
-      <span style={{fontWeight: 'bold', fontStyle: 'italic'}}>Reagan's War on Drugs: </span>The Reagan administration launched its own war on drugs resulting in incredibly large amounts of people of color being arrested for violating marijuana laws everyday. Mandatory sentences were put in place again.
+      <span style={{fontWeight: 'bold', fontStyle: 'italic'}}>Reagan's War on Drugs: </span>The Reagan administration launched its own war on drugs resulting in incredibly high numbers of people of color being arrested for violating marijuana laws every day. Mandatory sentences were put in place again.
       </div>
       <div className='text-1980'>
-      The war on drugs continued under President George Bush in 1989 but a major public perception shift of marijuana was occurring. The tension between federal laws and state laws with regards to marijuana began.
+      The war on drugs continued under President George Bush in 1989 but a major shift in the public perception of marijuana was occurring. The tension between federal laws and state laws with regards to marijuana began.
       </div>
       </div>
       <div className={`timeline-item ${showDivs.includes(6) ? 'show' : ''}`}>
@@ -94,6 +95,7 @@ const TimeLine = () => {
       </div>
       <div className='text-1996'>
       <span style={{fontStyle: 'italic'}}>Proposition 215: </span>Allows for sale and medical use of marijuana (however - federal laws still prohibit marijuana possesion)
+      </div>
       </div>
       </div>
       </div>

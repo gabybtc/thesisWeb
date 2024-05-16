@@ -10,6 +10,8 @@ const QuestionAnswer3 = ({ onNext }) => {
         rootsInHellPoster,
       ];
 
+      const captions = ["Reefer Madness Poster, Credit: PosterWire.com", "An ad for the 1930s film 'Marihuana.' Credit: National Library of Medicine"];
+
   return (
     <div>
     <div className="box-container">
@@ -20,7 +22,7 @@ const QuestionAnswer3 = ({ onNext }) => {
       </div>
       <div className='box-content3'>
         <div className='textBlockOneQ3'>
-        The media propaganda that took hold during the 20th century still impacts the way cannabis and its association with immigrants are viewed today.
+        The media propaganda that took hold during the 20th century still impacts the way cannabis' association with immigrants is viewed today.
       </div>
       <img src={racistArticle} alt="article-2" className="racist-article-img" />
       <div className='textBlockTwoQ3'>
@@ -33,7 +35,7 @@ const QuestionAnswer3 = ({ onNext }) => {
       </div>
     </div>
     <div className='sliderImages'>
-        <ImageSlider images={images} />
+        <ImageSlider images={images} captions={captions} />
     </div>
     </div>
     <button onClick={onNext} className='next-btn'>Next <img src={WhiteNext} alt="next" className="next-icon" /></button>

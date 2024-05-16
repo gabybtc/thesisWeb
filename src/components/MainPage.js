@@ -11,10 +11,10 @@ const MainPage = () => {
         <img src={usMapBG} alt="US Map" className="us-map" />
       </div>
       <div className="content">
-        <h2>The history of cannabis is rooted in extensive{' '}
+        <h2>The history of cannabis in the US is rooted in{' '}
         <span className="italic times-new-roman">racism</span> and {' '}
-        <span className="italic times-new-roman">xenophobia</span> in the US.</h2>
-        <p>Latinx immigrants have been consistently{' '}
+        <span className="italic times-new-roman">xenophobia</span></h2>
+        <p>Latino immigrants have been consistently{' '}
         <span className="light-green">persecuted</span> and{' '}
         <span className="light-green">demonized</span> through US cannabis laws and regulations....</p>
         <Link to="/learn-more" className="learn-more-btn">

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { goNextImg, goBackImg } from '../../images/images';
 import './ImageSlider.css';
 
-const ImageSlider = ({ images }) => {
+const ImageSlider = ({ images, captions }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNext = () => {
@@ -20,6 +20,7 @@ const ImageSlider = ({ images }) => {
       <img src={goBackImg}/>
     </span>
     <img src={images[currentIndex]} alt={`Image ${currentIndex}`} />
+    <div className="caption">{captions[currentIndex]}</div>
     <span className="nextButton3" onClick={goToNext}>
       <img src={goNextImg}/>
     </span>
